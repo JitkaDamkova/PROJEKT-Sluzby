@@ -1,0 +1,115 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+
+
+/* PÍSMO
+font-family: 'Montserrat', sans-serif;
+/* BARVY
+#FAFAFA - pozadí stránky
+#000000 - černá
+#8B8B8B - šedá
+#407BFF - primární modrá
+#FFFFFF - bílá
+#407BFF1F - světle modrá
+*/
+
+
+body {
+    background-color: #FAFAFA;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+main {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.obrazek-uvod {
+    width: 100%;
+}
+.hlavicka-popis {
+    margin-bottom: 40px;
+}
+h1 {
+    font-size: 28px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    color: black;
+}
+
+.line {
+    border-top: 2px #407BFF;
+    height: 20px;
+    width: 60px;
+    margin: auto;
+
+}
+
+p {
+    color: #8B8B8B;
+}
+
+.button-dobrodruzstvi a, .button-pohoda a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button-dobrodruzstvi a {
+
+    width: 195px;
+    background-color: #407BFF;
+    margin-bottom: 10px;
+}
+
+.button-pohoda a {
+    width: 230px;
+    background-color: #8B8B8B;
+}
+
+.sluzby {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.popis {
+    margin-bottom: 30px;
+}
+
+
+.polozka {
+    border: 0px;
+    color: white;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.ikonka {
+    padding: 20px 40px 20px 20px;
+}
+
+.polozka-text {
+    font-size: 13px;
+    padding: 30px 20px 20px 0px;
+}
