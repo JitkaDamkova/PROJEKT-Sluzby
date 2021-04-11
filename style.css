@@ -50,8 +50,8 @@ h2 {
 }
 
 .line {
-    border-top: 2px #407BFF;
-    height: 20px;
+    background-color: #407BFF;
+    height: 2px;
     width: 60px;
     margin: auto;
 
@@ -112,4 +112,37 @@ p {
 .polozka-text {
     font-size: 13px;
     padding: 30px 20px 20px 0px;
+}
+
+
+/* TABLET */
+
+@media screen and (min-width: 640px) {
+    main {
+        max-width: 768px;
+    }
+    .tlacitka {
+        display: flex;
+        justify-content: center;
+    }
+    .button-dobrodruzstvi {
+        margin-right: 10px;
+    }
+    .button-pohoda {
+        margin-left: 10px;
+    }
+    .polozky {
+        display: flex;
+    }
+    .polozka {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 10px 60px 10px;
+    }
+    .ikonka {
+        padding: 40px 90px 20px 90px;
+    }
+    .polozka-text {
+        padding: 0px 15px 20px 15px;
+    }
 }
